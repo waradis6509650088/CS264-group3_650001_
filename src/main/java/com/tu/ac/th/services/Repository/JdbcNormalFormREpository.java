@@ -27,7 +27,7 @@ public class JdbcNormalFormREpository implements NormalFormRepository {
     public List<NormalForm> getAll() {
         String sql = "SELECT * FROM normalForm";
         List<NormalForm> addDropForms = jdbcTemplate.query(sql, (rs, rowNum) -> {
-            NormalForm form = new NormalForm();
+            NormalForm form = new NormalForm(null);//replace null with your json
             form.setId(rs.getString("id"));
             form.setFname(rs.getString("fname"));
             form.setLname(rs.getString("lname"));

@@ -2,6 +2,8 @@ package com.tu.ac.th.services.Models;
 
 import java.util.Date;
 
+import org.json.simple.JSONObject;
+
 public class AddDropForm {
     private long id;
     private Date date;
@@ -25,7 +27,7 @@ public class AddDropForm {
 
     // Constructors
 
-    public AddDropForm() {
+    public AddDropForm(JSONObject json) {
         this.id = (Long) json.get("id");
         this.date = (Date) json.get("date");
         this.studentFirstName = (String) json.get("studentFirstName");

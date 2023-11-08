@@ -3,6 +3,8 @@ package com.tu.ac.th.services.Models;
 import java.sql.Date;
 import java.sql.Time;
 
+import org.json.simple.JSONObject;
+
 public class NormalForm {
     private String id;
     private String fname;
@@ -18,7 +20,7 @@ public class NormalForm {
 
     // Constructors
 
-    public NormalForm() {
+    public NormalForm(JSONObject json) {
         this.id = (String) json.get("id");
         this.fname = (String) json.get("fname");
         this.lname = (String) json.get("lname");
