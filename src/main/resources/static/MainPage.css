@@ -10,3 +10,23 @@ img {
             height: auto ;
             object-fit: contain;
  }
+ .sidebar {
+     border: 1px solid #D3D3D3; /* ปรับสีและความหนาขอบตามที่ต้องการ */
+     margin: 5px; /* ปรับระยะขอบภายนอก */
+     padding: 10px; /* ปรับระยะขอบภายใน */
+     width: 250px; /* ปรับความกว้างของ sidebar ตามที่คุณต้องการ */
+     max-height: 80vh; /* ปรับความสูงสูงสุดโดยใช้หน่วย viewport height (vh) */
+     overflow-y: auto; /* เพิ่มแถบเลื่อนในกรณีที่เนื้อหามีมากเกินไป */
+     position: fixed; /* ทำให้ sidebar ติดตามหน้าจอ */
+     left: 10; /* ตำแหน่งจากด้านซ้ายของหน้าจอ */
+ }
+ .image-with-text {
+     display: flex;
+     align-items: center;
+ }
+
+ .image-with-text img {
+     margin-left: 70px; /* ระยะห่างระหว่างรูปภาพกับข้อความ */
+ }
+
+
