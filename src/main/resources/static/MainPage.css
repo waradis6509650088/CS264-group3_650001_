@@ -3,6 +3,12 @@
     font-family: 'Kanit', sans-serif;
 
 }
+body{
+        background-image: url("https://drive.google.com/file/d/1pQdqu0KvAbe-Q-vgUxKNC7fXxYVgenLu/view?usp=sharing");
+        background-size: cover;
+        background-repeat: no-repeat;
+         background-attachment: fixed;
+}
 img {
             display: block;
             margin: 0 auto;
