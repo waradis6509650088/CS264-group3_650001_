@@ -7,7 +7,7 @@ body{
         background-image: url("https://drive.google.com/file/d/1pQdqu0KvAbe-Q-vgUxKNC7fXxYVgenLu/view?usp=sharing");
         background-size: cover;
         background-repeat: no-repeat;
-         background-attachment: fixed;
+        background-attachment: fixed;
 }
 img {
             display: block;
@@ -16,23 +16,19 @@ img {
             height: auto ;
             object-fit: contain;
  }
- .sidebar {
-     border: 1px solid #D3D3D3; /* ปรับสีและความหนาขอบตามที่ต้องการ */
-     margin: 5px; /* ปรับระยะขอบภายนอก */
-     padding: 10px; /* ปรับระยะขอบภายใน */
-     width: 250px; /* ปรับความกว้างของ sidebar ตามที่คุณต้องการ */
-     max-height: 80vh; /* ปรับความสูงสูงสุดโดยใช้หน่วย viewport height (vh) */
-     overflow-y: auto; /* เพิ่มแถบเลื่อนในกรณีที่เนื้อหามีมากเกินไป */
-     position: fixed; /* ทำให้ sidebar ติดตามหน้าจอ */
-     left: 10; /* ตำแหน่งจากด้านซ้ายของหน้าจอ */
- }
- .image-with-text {
-     display: flex;
-     align-items: center;
- }
 
- .image-with-text img {
-     margin-left: 70px; /* ระยะห่างระหว่างรูปภาพกับข้อความ */
- }
+.banner {
+      width: 100%;
+      height: 80%;
+      margin-right: 20%;
+      background-color:#F2F2F2 ;
+}
+.content {
+      width: 80%;
+      height: 500%;
+      margin-left: 20%;
+      background-color: #FFF2CC ;
 
+
+}
 
