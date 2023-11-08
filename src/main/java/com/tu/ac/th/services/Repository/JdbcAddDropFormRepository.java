@@ -29,7 +29,7 @@ public class JdbcAddDropFormRepository implements AddDropFormRepository{
     public List<AddDropForm> getAll() {
         String sql = "SELECT * FROM addDropForm";
         List<AddDropForm> addDropForms = jdbcTemplate.query(sql, (rs, rowNum) -> {
-            AddDropForm form = new AddDropForm();
+            AddDropForm form = new AddDropForm(null);//replace null with your json
             form.setId(rs.getLong("id"));
             form.setDate(rs.getDate("date"));
             form.setStudentFirstName(rs.getString("studentFirstName"));

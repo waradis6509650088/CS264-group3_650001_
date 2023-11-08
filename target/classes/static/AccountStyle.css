@@ -13,6 +13,13 @@ img {
             object-fit: contain;
  }
 
+ body{
+         background-image: url("pic/Back.jpg");
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+ }
+
  .selector {
      background: url('Back.jpg');
  }
@@ -25,7 +32,7 @@ img {
       margin-left: 23%;
       margin-top: -28%;
       margin-bottom: %;
-      background-color: white;
+      background-color: #F8F9F9;
       border-radius: 20px;
       border-style: solid;
       border-color: black;
@@ -44,7 +51,7 @@ img {
     border-style: solid;
     border-color: black;
     border-width: 2px;
-    background-color: white;
+    background-color: #F8F9F9;
     font-size: 20px;
 }
 
@@ -55,12 +62,12 @@ img {
 .nameid{
     font-family: 'Kanit', sans-serif;
     margin-top: -21%;
-    margin-left: 15%;
+    margin-left: 13%;
     font-size: 25px;
 }
 
 .sidebar {
-    background-color: ;
+    background-color: #F8F9F9;
     width: 15%;
     padding: 1%;
     border-radius: 20px;
@@ -76,6 +83,7 @@ img {
     font-weight: bold;
     font-size: 18px;
     font-family: 'Kanit', sans-serif;
+    padding: 5% 0;
 }
 
 .mainmenu a:hover {
@@ -98,4 +106,21 @@ hr {
 
 .navbar{
     margin-bottom: 3%;
+}
+
+.accountpic{
+    margin-top: 2%;
+    margin-left: -85%;
+}
+
+.mainmenu hr {
+    margin: 10px auto;
+    border-top: 1px solid #ccc;
+    width: 50%;
+}
+
+.sub-menu hr {
+    margin: 10px auto;
+    border-top: 1px solid #ccc;
+    width: 50%;
 }
