@@ -8,17 +8,14 @@
 <body>
 <link rel="stylesheet" type="text/css" href="AccountStyle.css">
 
-<!-- แถบด้านบน -->
-<div class="navbar">
-    <img src ="pic/banner_file.jpg" >
-
-
-</div>
 
 <!-- แถบด้านซ้าย -->
 <div class="sidebar">
     <ul>
-        <a href="MainPage.html">เมนูหลัก</a><br>
+        <div class="mainmenu">
+            <a href="MainPage.html"><h2>เมนูหลัก</h2></a><br>
+        </div>
+        <hr>
         <a href="Account.html">ข้อมูลส่วนตัวผู้ใช้</a><br>
         <a href="https://www.reg.tu.ac.th/th/Picture/AttFile/279893db-4b83-4fbd-a1fb-3b8fc77e6d99">ข้อบังคับมหาวิทยาลัยธรรมศาสตร์</a><br>
         <a href="#">แบบฟอร์มยื่นคำร้องขอ</a><br>
@@ -34,18 +31,21 @@
 
 <!-- เนื้อหาหลักขวา -->
 <div class="content">
-    <input placeholder="UserName"><br>
-    <input placeholder="UserID"><br>
 
-    <div class = "data Account">
-        <h2>Account into</h2>
-        <hr>
+    <!-- แถบด้านบน -->
+    <div class="navbar">
+        <img src ="pic/banner_file.jpg" >
+    </div>
+
+    <div class = "dataAccount">
+        <div class = "data">
+            <h2>Account info</h2>
+            <hr>
+        </div>
+        <div class = "nameid">
         <label>UserName</label><br>
         <label>UserId</label><br>
-
-
-
-
+        </div>
     </div>
 
 
