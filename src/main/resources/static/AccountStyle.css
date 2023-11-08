@@ -4,6 +4,7 @@ git@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200&f
     font-family: 'Kanit', sans-serif;
 
 }
+
 img {
             display: block;
             margin: 0 auto;
@@ -12,14 +13,26 @@ img {
             object-fit: contain;
  }
 
+ body{
+         background-image: url("pic/Back.jpg");
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+ }
+
+ .selector {
+     background: url('Back.jpg');
+ }
+
 .content {
       font-family: 'Kanit', sans-serif;
       width: 75%;
       height: 85%;
       position: absolute;
       margin-left: 23%;
-      margin-top: -25%;
-      background-color: white;
+      margin-top: -28%;
+      margin-bottom: %;
+      background-color: #F8F9F9;
       border-radius: 20px;
       border-style: solid;
       border-color: black;
@@ -38,7 +51,7 @@ img {
     border-style: solid;
     border-color: black;
     border-width: 2px;
-    background-color: white;
+    background-color: #F8F9F9;
     font-size: 20px;
 }
 
@@ -49,18 +62,12 @@ img {
 .nameid{
     font-family: 'Kanit', sans-serif;
     margin-top: -21%;
-    margin-left: 15%;
+    margin-left: 13%;
     font-size: 25px;
 }
 
-.navbar{
-    margin-left: 8%;
-    margin-top: 6%;
-    font-family: 'Kanit', sans-serif;
-}
-
 .sidebar {
-    background-color: white;
+    background-color: #F8F9F9;
     width: 15%;
     padding: 1%;
     border-radius: 20px;
@@ -76,6 +83,7 @@ img {
     font-weight: bold;
     font-size: 18px;
     font-family: 'Kanit', sans-serif;
+    padding: 5% 0;
 }
 
 .mainmenu a:hover {
@@ -94,4 +102,25 @@ hr {
 
 .sub-menu a {
     font-size: 14px;
+}
+
+.navbar{
+    margin-bottom: 3%;
+}
+
+.accountpic{
+    margin-top: 2%;
+    margin-left: -85%;
+}
+
+.mainmenu hr {
+    margin: 10px auto;
+    border-top: 1px solid #ccc;
+    width: 50%;
+}
+
+.sub-menu hr {
+    margin: 10px auto;
+    border-top: 1px solid #ccc;
+    width: 50%;
 }

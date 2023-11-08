@@ -61,6 +61,7 @@ button[type="submit"] {
 /* Style radio buttons and checkboxes */
 input[type="radio"], input[type="checkbox"] {
     margin-right: 5px;
+
 }
 
 /* Style the additional file input */
@@ -81,4 +82,64 @@ button[type="submit"] {
     font-size: 18px;
     font-weight: bold;
     text-decoration: underline;
+}
+.lineone , .name{
+    display: flex;
+    max-height: 55px;
+    gap: 10px;
+}
+
+.prefix select {
+    max-width: 100px;
+    width: 100px;
+    max-height: 55px;
+}
+.prefix {
+    display: flex;
+    gap: 10px;
+}
+.numnum {
+    display: flex;
+    gap: 10px;
+}
+.number input{
+    max-width: 115px;
+    width: 115px;
+}
+#studentYear {
+    max-width: 50px;
+}
+.number ,.year,.branch {
+    display: flex;
+    gap: 20px;
+}
+.number ,.year,.branch ,input select{
+    max-height: 55px;
+    height: 55px;
+}
+.branch {
+    display: flex;
+}
+.radioselect {
+    display: flex;
+    max-height: 25px;
+    height: 25px;
+}
+.placeja {
+    display: flex;
+    max-height: 55px;
+    height: 55px;
+    gap: 20px;
+}
+.placejee {
+    display: flex;
+    max-height: 55px;
+    height: 55px;
+    gap: 20px;
+}
+.teltel {
+    display: flex;
+    max-height: 55px;
+    height: 55px;
+    gap: 20px;
 }
