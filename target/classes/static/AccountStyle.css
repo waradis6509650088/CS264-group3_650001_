@@ -1,4 +1,4 @@
-git@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200&family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200&family=Kanit:wght@300&display=swap');
 
 * {
     font-family: 'Kanit', sans-serif;
@@ -30,7 +30,7 @@ img {
       height: 85%;
       position: absolute;
       margin-left: 23%;
-      margin-top: -28%;
+      margin-top: -50%;
       margin-bottom: %;
       background-color: #F8F9F9;
       border-radius: 20px;
@@ -69,17 +69,19 @@ img {
 .sidebar {
     background-color: #F8F9F9;
     width: 15%;
+    height: 700px;
     padding: 1%;
-    border-radius: 20px;
+    border-radius: 10px;
     border-style: solid;
-    border-color: black;
+    border-color: #F2F2F2 ;
     border-width: 2px;
     font-family: 'Kanit', sans-serif;
+
 }
 
 .mainmenu a {
     text-decoration: none;
-    color: red;
+    color: #e10925;
     font-weight: bold;
     font-size: 18px;
     font-family: 'Kanit', sans-serif;
