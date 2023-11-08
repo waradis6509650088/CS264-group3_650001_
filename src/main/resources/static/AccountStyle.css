@@ -4,6 +4,7 @@ git@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200&f
     font-family: 'Kanit', sans-serif;
 
 }
+
 img {
             display: block;
             margin: 0 auto;
@@ -12,13 +13,18 @@ img {
             object-fit: contain;
  }
 
+ .selector {
+     background: url('Back.jpg');
+ }
+
 .content {
       font-family: 'Kanit', sans-serif;
       width: 75%;
       height: 85%;
       position: absolute;
       margin-left: 23%;
-      margin-top: -25%;
+      margin-top: -28%;
+      margin-bottom: %;
       background-color: white;
       border-radius: 20px;
       border-style: solid;
@@ -53,14 +59,8 @@ img {
     font-size: 25px;
 }
 
-.navbar{
-    margin-left: 8%;
-    margin-top: 6%;
-    font-family: 'Kanit', sans-serif;
-}
-
 .sidebar {
-    background-color: white;
+    background-color: ;
     width: 15%;
     padding: 1%;
     border-radius: 20px;
@@ -94,4 +94,8 @@ hr {
 
 .sub-menu a {
     font-size: 14px;
+}
+
+.navbar{
+    margin-bottom: 3%;
 }
