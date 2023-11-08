@@ -11,3 +11,13 @@ img {
             height: auto ;
             object-fit: contain;
  }
+
+.content {
+    width: 80%;
+      height: 500%;
+      /*margin-top: 20%*/
+      margin-left: 20%;
+      background-color: #3498db;
+      border-radius: 20px;
+      box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
