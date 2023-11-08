@@ -3,6 +3,12 @@
     font-family: 'Kanit', sans-serif;
 
 }
+body{
+        background-image: url("https://drive.google.com/file/d/1pQdqu0KvAbe-Q-vgUxKNC7fXxYVgenLu/view?usp=sharing");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
 img {
             display: block;
             margin: 0 auto;
@@ -10,3 +16,19 @@ img {
             height: auto ;
             object-fit: contain;
  }
+
+.banner {
+      width: 100%;
+      height: 80%;
+      margin-right: 20%;
+      background-color:#F2F2F2 ;
+}
+.content {
+      width: 80%;
+      height: 500%;
+      margin-left: 20%;
+      background-color: #FFF2CC ;
+
+
+}
+
