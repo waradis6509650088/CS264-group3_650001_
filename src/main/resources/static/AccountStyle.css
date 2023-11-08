@@ -13,6 +13,13 @@ img {
             object-fit: contain;
  }
 
+ body{
+         background-image: url("pic/Back.jpg");
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+ }
+
  .selector {
      background: url('Back.jpg');
  }
@@ -55,7 +62,7 @@ img {
 .nameid{
     font-family: 'Kanit', sans-serif;
     margin-top: -21%;
-    margin-left: 15%;
+    margin-left: 13%;
     font-size: 25px;
 }
 
@@ -99,4 +106,21 @@ hr {
 
 .navbar{
     margin-bottom: 3%;
+}
+
+.accountpic{
+    margin-top: 2%;
+    margin-left: -85%;
+}
+
+.mainmenu hr {
+    margin: 10px auto;
+    border-top: 1px solid #ccc;
+    width: 50%;
+}
+
+.sub-menu hr {
+    margin: 10px auto;
+    border-top: 1px solid #ccc;
+    width: 50%;
 }
