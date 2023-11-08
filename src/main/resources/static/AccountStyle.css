@@ -13,7 +13,8 @@ img {
  }
 
 .content {
-    width: 75%;
+      font-family: 'Kanit', sans-serif;
+      width: 75%;
       height: 85%;
       position: absolute;
       margin-left: 23%;
@@ -26,6 +27,7 @@ img {
 }
 
 .dataAccount{
+    font-family: 'Kanit', sans-serif;
     width: 95%;
     height: 65%;
     position: absolute;
@@ -45,6 +47,7 @@ img {
 }
 
 .nameid{
+    font-family: 'Kanit', sans-serif;
     margin-top: -21%;
     margin-left: 15%;
     font-size: 25px;
@@ -53,6 +56,7 @@ img {
 .navbar{
     margin-left: 8%;
     margin-top: 6%;
+    font-family: 'Kanit', sans-serif;
 }
 
 .sidebar {
@@ -60,9 +64,10 @@ img {
     width: 15%;
     padding: 1%;
     border-radius: 20px;
-        border-style: solid;
-          border-color: black;
-          border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    font-family: 'Kanit', sans-serif;
 }
 
 .mainmenu a {
@@ -70,6 +75,7 @@ img {
     color: red;
     font-weight: bold;
     font-size: 18px;
+    font-family: 'Kanit', sans-serif;
 }
 
 .mainmenu a:hover {
